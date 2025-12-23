@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<p th:text="'Hello, ' + ${name} + '!'" />
+<p>
+    I know what kind of man you are, but I cannot prove it 😌
+</p>
+<img th:src="@{/iknowbutcannotproveit.png}" width="1100"/>
+</body>
+</html>
